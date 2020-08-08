@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'pry'
+require 'rest-client'
+require 'json'
+
+
+require_relative '../lib/currency_rates_cli/api'
+require_relative '../lib/currency_rates_cli/cli'
+require_relative '../lib/currency_rates_cli/currency_rates'
+
+#API.get_data
+CLI.new.run
