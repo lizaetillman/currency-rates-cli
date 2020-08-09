@@ -35,7 +35,7 @@ The program will welcome the User then ask for them to either 'enter' or 'exit' 
 
 A list of currency codes will appear!
 
-The User can then select a currency code (by number) to see the currency's rate based on the United States Dollar (USD).
+After the User can select a currency code (by number) to see the currency's rate based on the United States Dollar (USD).
 
 ## Development
 
