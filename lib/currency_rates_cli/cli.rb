@@ -27,7 +27,7 @@ class CLI
                     exit
                 puts "Thank you for using the Currency Rates CLI! Goodbye!"
                 else
-                puts "Invaild! Please choose a valid input." 
+                    invalid_entry 
             end    
         end
             
@@ -56,8 +56,7 @@ class CLI
             puts "#{conversion_rate.name} = #{conversion_rate.rate}"
             exit?
         else
-            puts " "
-            puts "Invaild! Please choose a valid number." 
+            invalid_entry 
             enter
         end
 
@@ -77,11 +76,15 @@ class CLI
         elsif input == "continue"
             enter
         else
-            puts " "
-            puts "Invaild! Let's try again."
+            invalid_entry
             exit?
         end
 
+    end
+
+    def invalid_entry
+        puts ""
+        puts "Invalid! Please try again." 
     end
 
 
