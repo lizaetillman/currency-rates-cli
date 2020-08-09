@@ -6,7 +6,7 @@ An exchange rate is the value of one currency for the purpose of conversion to a
 
 This Ruby gem provides a Command Line Interface (CLI) to an external data source. It delivers real-time, reliable exchange rates collected from various commercial sources for 52 different countries. All currency rates in this program are based on the United States Dollar (USD).
 
-Please Note:  This program displays a country's three-letter alphabetic code (ISO 4217 Currency Code) rather than the country's name. To read more about ISO 4217 codes, visit [https://en.wikipedia.org/wiki/ISO_4217].  
+### Please Note:  This program displays a country's three-letter alphabetic code (ISO 4217 Currency Code) rather than the country's name. To read more about ISO 4217 codes, visit [https://en.wikipedia.org/wiki/ISO_4217].  
 
 ## Installation
 
