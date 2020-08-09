@@ -11,10 +11,10 @@ class CLI
         input = " "
         while input != "exit"
             puts " "
-            puts "This program will reveal the current currency rate for the country you choose!"
+            puts "This program will deliver the current currency rate for the country of your choice!"
             puts "All currency conversion rates are based on 1 U.S. Dollar."
             puts " "
-            puts "To get the conversion rate, type 'enter'."
+            puts "To see the list of countries, type 'enter'."
             puts "To quit this program, type 'exit'."
             puts " "
             
@@ -65,7 +65,8 @@ class CLI
     
     def exit?
         puts " "
-        puts "Would you like to exit or continue? Type 'exit' or 'continue'."
+        puts "Would you like to exit or continue?"
+        puts "Type 'exit' or 'continue'."
         puts " "
         input = gets.chomp.downcase
 
