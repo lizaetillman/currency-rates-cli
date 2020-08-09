@@ -1,8 +1,12 @@
-# Currency_Rates_Cli
+# Currency Rates CLI
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/currency_rates_cli`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to the Currency Rates CLI! 
 
-TODO: Delete this and the text above, and describe your gem
+An exchange rate is the value of one currency for the purpose of conversion to another. For some countries, exchange rates constantly change (flexible). For others, exchange rates rarely change (fixed).
+
+This Ruby gem provides a Command Line Interface (CLI) to an external data source. It delivers real-time, reliable exchange rates collected from various commercial sources for 52 different countries. All currency rates in this program are based on the United States Dollar (USD).
+
+Please Note:  This program displays a country's three-letter alphabetic code (ISO 4217 Currency Code) rather than the country's name. To read more about ISO 4217 codes, visit [https://en.wikipedia.org/wiki/ISO_4217].  
 
 ## Installation
 
@@ -22,7 +26,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Type the following code into the terminal to initiate and run the program:
+
+
+    ./bin/executable
+
+The program will welcome the User then ask for them to either 'enter' or 'exit' the program.
+
+A list of currency codes will appear!
+
+The User can then select a currency code (by number) to see the currency's rate based on the United States Dollar (USD).
 
 ## Development
 
@@ -32,7 +45,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/<github username>/currency_rates_cli. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/<github username>/currency_rates_cli/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/lizaetillman/currency_rates_cli. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/lizaetillman/currency_rates_cli/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## License
@@ -41,4 +54,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the CurrencyRatesCli project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/<github username>/currency_rates_cli/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the CurrencyRatesCli project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/lizaetillman/currency_rates_cli/blob/master/CODE_OF_CONDUCT.md).
