@@ -26,7 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-Type the following code into the terminal to initiate and run the program:
+Type the following code into the terminal to initiate the program:
 
 
     ./bin/executable
