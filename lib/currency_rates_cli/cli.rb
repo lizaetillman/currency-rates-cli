@@ -50,7 +50,7 @@ class CLI
 
         input = gets.strip.to_i
 
-        #seperate this method
+        
         if input >= 1 && input <= Currency_Rates.all.length
             conversion_rate = Currency_Rates.all[input-1]
             puts "#{conversion_rate.name} = #{conversion_rate.rate}"
